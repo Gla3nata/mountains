@@ -1,51 +1,64 @@
-*,*:before,*:after{
+*,
+*:before,
+*:after {
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     height: 100%;
 }
-body{
+
+body {
     /*font-family: Arial;*/
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     min-height: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
-.page{
+
+.page {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:0;
+    top: 0;
     left: 0;
 }
-.parallax{
+
+.parallax {
     position: relative;
     height: 100%;
 }
-.parallax__mountain{
+
+.parallax__mountain {
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
 }
-.parallax__mountain_1{
+
+.parallax__mountain_1 {
     background: url('../img/m_1.png') 0 0 / cover no-repeat;
 }
-.parallax__mountain_2{
+
+.parallax__mountain_2 {
     z-index: 1;
     background: url('../img/m_2.png') bottom right / 45% no-repeat;
 }
-.parallax__mountain_3{
+
+.parallax__mountain_3 {
     z-index: 1;
     background: url('../img/m_3.png') left bottom / 100% no-repeat;
 }
-.parallax__fog{
-    background: url('../img/fog_1.png')  bottom / 100% no-repeat;
+
+.parallax__fog {
+    background: url('../img/fog_1.png') bottom / 100% no-repeat;
     position: fixed;
     height: 100%;
     width: 100%;
@@ -53,32 +66,40 @@ body{
     left: 0;
     z-index: 2;
 }
-.content{
+
+.content {
     position: relative;
 }
-.content__body{
-   max-width: 1170px;
+
+.content__body {
+    max-width: 1170px;
     margin: 0 auto;
 }
-.content__header{
+
+.content__header {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
     padding: 0 20px;
 }
-.content__title{
+
+.content__title {
     font-size: 100px;
     font-weight: 600;
 }
-.content__subtitle{
+
+.content__subtitle {
     font-size: 60px;
 }
-.content__article{
-    background-color: rgba(255,255,255,0.5);
+
+.content__article {
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 25px;
     font-size: 18px;
     line-height: 24px;
+    border: 1px solid red;
 }
-.content__article p{
+
+.content__article p {
     margin-bottom: 20px;
 }
