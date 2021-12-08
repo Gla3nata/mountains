@@ -21,7 +21,7 @@ $(document).ready(function () {
         $('.parallax__mountain_2').css('transform', 'translate3d(' + hr + 'px,0,0)', 'scale(' + z_3 + ')');
 
         var hr_2 = w / 1500 * p_b;
-        var z_4 = 1 - (w * 0.00001 * p_b);
-        $('.parallax__mountain_3').css('transform', 'translate3d(' + hr_2 + 'px,0,0)', 'scale(' + z_4 + ')');
+        var z_4 = 1 + (w * 0.00001 * p_b);
+        $('.parallax__mountain_3').css('transform', 'translate3d(0,' + hr_2 + 'px,0)', 'scale(' + z_4 + ')');
     });
 });
